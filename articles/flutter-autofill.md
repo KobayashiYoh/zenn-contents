@@ -55,7 +55,8 @@ class _FormPageState extends State<FormPage> {
   }
 }
 ```
-<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2017091/0975ae77-54ac-02a4-05f4-4c81a7aaa389.png" width="300">
+
+![](https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F2017091%2F0975ae77-54ac-02a4-05f4-4c81a7aaa389.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=4392530852c287af32ab04f7fe227165 =250x)
 
 これで、簡易的なフォームのUIを作成することができました。
 しかし、Flutterでは、デフォルトだとユーザー名やパスワードを自動入力することはできません。

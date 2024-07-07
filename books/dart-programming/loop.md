@@ -17,19 +17,6 @@ void main() {
     print('Hello, world!');
   }
 }
-```
-
-- 実行結果
-    
-    ```
-    Hello, world!
-    Hello, world!
-    Hello, world!
-    :
-    （省略）
-    :
-    Hello, world!
-    ```
 
 普通にprint文で`Hello, world!`と出力すると100行を超えてしまいますが、なんとfor文を使うとたったの3行で完結してしまいます。
 それでは、for文について詳しく解説していきます。

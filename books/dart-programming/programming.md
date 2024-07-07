@@ -14,15 +14,10 @@ title: "プログラミング"
 
 ### Android StudioでDartファイルを作成
 1. Android Studioを起動
-    ![スクリーンショット 2024-07-07 10.10.52.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1483921f-9019-4a71-b856-e67d30221abc/23face0b-f4a4-40b8-974f-0c4373173c47/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-07-07_10.10.52.png)
 2. `New Flutter Project`をクリック
-    ![スクリーンショット 2024-07-07 10.17.21.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1483921f-9019-4a71-b856-e67d30221abc/97f3bd9f-3929-453b-bb8b-9b88deb4855b/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-07-07_10.17.21.png)
 3. `Dart`→`Next`をクリック
-    ![スクリーンショット 2024-07-07 10.27.41.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1483921f-9019-4a71-b856-e67d30221abc/820a805c-a14c-47c4-b8bf-175bd4fd5bc1/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-07-07_10.27.41.png)
-4. Project Nameに「my_dart_project」と入力して`Create`をクリック
-    ![スクリーンショット 2024-07-07 10.29.20.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1483921f-9019-4a71-b856-e67d30221abc/7326f0a4-c3d0-4d77-9f66-303fe6bf7219/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-07-07_10.29.20.png)
+4. Project Nameに「my_dart_project」と入力して
 5. `my_dart_project/bin`に`my_dart_project.dart`が作成されていればOK
-    ![スクリーンショット 2024-07-07 12.13.20.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1483921f-9019-4a71-b856-e67d30221abc/15f0c72c-f0d3-4a1e-a70c-f85888a8d84f/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-07-07_12.13.20.png)
 
 ## Dart文法の超基本
 いきなりコードを書き始める前に、Dart文法の超基本ルールを押さえておきましょう。
@@ -57,7 +52,7 @@ void main() {
 ## プログラムの実行
 プログラムは編集しただけでは動きません。
 プログラムを動かすには、「実行」を行う必要があります。
-![スクリーンショット 2023-06-18 9.03.57.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd34d5ff-0329-4080-b975-582d2d1d13c2/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-06-18_9.03.57.png)
+Android StudioやVSCodeの▶️ボタンまたは▶️▶️ボタンをクリックすることで、プログラムを実行することができます。DartPadの場合は「▶️Run」をクリックするとプログラムを実行することができます。
 コードに誤りがなく、実行が上手くいけば、コンソール（プログラムの実行結果を表示する場所）に`Hello, World!`と出力されたはずです。
 これであなたも見習いエンジニアの仲間入りです。
 

@@ -1,0 +1,16 @@
+title: "Dartからはじめるプログラミング入門"
+summary: "Dartを題材にした初心者向けのプログラミングの入門書です。"
+topics: ["dart"]
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - introduction
+  - programming
+  - type
+  - operator
+  - collection
+  - conditional-branch
+  - loop
+  - function
+  - oop

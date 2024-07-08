@@ -15,9 +15,9 @@ Listでは、`[]`の中に複数の値を`,`で区切ってまとめて管理し
 では、実際にListを使ったのサンプルコードを見てみましょう。
 ```dart
 void main() {
-	// int型のListであるscoresを定義
-  List<int> scores = [97, 56, 43, 82, 90];
-  print(scores);
+    // int型のListであるscoresを定義
+    List<int> scores = [97, 56, 43, 82, 90];
+    print(scores);
 }
 ```
 上記のコードでは、List<int>型の変数scoresを定義し、List<int>型の値である`[97, 56, 43, 82, 90]`を代入しています。
@@ -57,35 +57,28 @@ Listに要素を追加したり、削除したりすることができるList操
 List操作には様々な種類たありますが、ここで紹介するのはList操作の一部になります。
 `add`を使うと、Listの一番後ろに要素を追加することができます。
 ```dart
- 	// Listの一番後ろに要素を追加
-  List<int> scores = [97, 56, 43, 82, 90];
-  scores.add(100);
-  print(scores);
+// Listの一番後ろに要素を追加
+List<int> scores = [97, 56, 43, 82, 90];
+scores.add(100);
+print(scores);
 ```
-
-- 実行結果
-    
-    ```
-    [97, 56, 43, 82, 90, 100]
-    ```
-    
 
 `addAll`を使うと、Listの一番後ろにListの全要素を追加することができます。
 ```dart
-  // Listの一番後ろにListの全要素を追加
-  List<int> scores = [97, 56, 43, 82, 90];
-  List<int> newScores = [100, 77, 60];
-  scores.addAll(newScores);
-  print(scores);
+// Listの一番後ろにListの全要素を追加
+List<int> scores = [97, 56, 43, 82, 90];
+List<int> newScores = [100, 77, 60];
+scores.addAll(newScores);
+print(scores);
 ```
 
 `clear`を使うと、Listの要素を全て削除することができます。
 
 ```dart
-  // Listの要素を全て削除
-  List<int> scores = [97, 56, 43, 82, 90];
-  scores.clear();
-  print(scores);
+// Listの要素を全て削除
+List<int> scores = [97, 56, 43, 82, 90];
+scores.clear();
+print(scores);
 ```    
 
 `length`を使うと、Listの要素数を求めることができます。
@@ -110,8 +103,8 @@ Set<int> scores = {97, 56, 43, 82, 90};
 実際にサンプルコードを書いてみて確かめてみましょう。
 ```dart
 void main() {
-  Set<String> seasons = {'春', '夏', '秋', '冬', '春'};
-  print(seasons);
+    Set<String> seasons = {'春', '夏', '秋', '冬', '春'};
+    print(seasons);
 }
 
 ``` 
@@ -125,12 +118,12 @@ Listは複数の値を添字とバリューのペアで保管しましたが、M
 それでは、実際にMapを利用している例を見てみましょう。
 ```dart
 void main() {
-  Map<String, String> languages = {
+    Map<String, String> languages = {
     'ja': '日本語',
     'en': 'English',
-  };
-  print(languages['ja']);
-  print(languages['en']);
+    };
+    print(languages['ja']);
+    print(languages['en']);
 }
 
 ```

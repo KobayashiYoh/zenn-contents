@@ -61,12 +61,12 @@ void main() {
 ```dart
 // String型の引数nameの値をprint文で表示する。
 void greet(String name) {
-  print('Hello, $name!');
+    print('Hello, $name!');
 }
 
 void main() {
-　　 // 関数greetに文字列tamaを渡す。
-  greet('tama');
+    // 関数greetに文字列tamaを渡す。
+    greet('tama');
 }
 ```
 
@@ -102,14 +102,14 @@ void main() {
 ```dart
 // 引数aとbの和をint型の返り値として返す関数
 int add(int a, int b) {
-	// aとbの和をreturn文で返す
-  return a + b;
+    // aとbの和をreturn文で返す
+    return a + b;
 }
 
 void main() {
-	// 関数addの返り値をint型の変数sumに代入
-	int sum = add(1, 1);
-	print(sum);
+    // 関数addの返り値をint型の変数sumに代入
+    int sum = add(1, 1);
+    print(sum);
 }
 ```
     

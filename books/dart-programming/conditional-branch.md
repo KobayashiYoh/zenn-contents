@@ -64,7 +64,7 @@ void main() {
 }
 ```
 
-[if文](https://www.notion.so/if-173b009b2e26460aaff25323c4b65b0d?pvs=21) でやったように、条件式の`userAge >= 18`が`true`となり、ifの{}内に書かれた処理が実行されました。
+if文内にある条件式の`userAge >= 18`が`true`となり、ifの{}内に書かれた処理が実行されました。
 では、userAgeの値を17に変えたらどうなるでしょうか。
 
 ```dart

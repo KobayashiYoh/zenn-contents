@@ -98,10 +98,10 @@ double c = -8.25;
 
 ## String型
 String型は文字列を扱う型です。
-Dartでは、`’`（シングルクォーテーション）で囲んだ文字をString型の値として扱うことができます。実は、第1章で登場した`print(’Hello, world!’);`の`’Hello, world!’`はString型の値です。String型では、英数字記号に加え、日本語も扱うことができます。
+Dartでは、`’`（シングルクォーテーション）で囲んだ文字をString型の値として扱うことができます。実は、Chapter2で登場した`print(’Hello, world!’);`の`’Hello, world!’`はString型の値です。String型では、英数字記号に加え、日本語も扱うことができます。
 ```dart
 String message = 'Hello, world!';
-String companyName = '株式会社Shinonome';
+String communityName = 'PlayGround';
 String hashtag　= '#mobile';
 ```
 以下のように`$`を使うと、文字列と文字列を連結させることができます。
@@ -131,7 +131,7 @@ bool isLoading = true;
 bool hasError = false;
 ```
 「こんなことができて何が楽しいのか」と思われたかもしれませんが、bool型はプログラミングにおいてとても重要な役割を果たします。
-詳しくは、[第4章「条件分岐」](https://www.notion.so/4-8929e84f6434447f87e5e04aa921133e?pvs=21) で解説するのでお楽しみに。
+詳しくは、Chapter6の条件分岐で解説するのでお楽しみに。
 
 ## DateTime型
 DateTime型は、その名の通り日時を扱う型です。
